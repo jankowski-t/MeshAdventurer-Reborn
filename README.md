@@ -5,10 +5,10 @@
 ### From original project (I removed some things because I didn't need them):
 - 1W transmit power for extended range compared to normal Meshtastic hardware (typically 100mW-160mW).
 - ~~Wide range voltage input (9-28V), It can be powered by USB or barrel plug making it extremely versitile. You can even power it using a solar panel!~~
-- OLED display~~ and rotary encoder with "Canned messages", these are messages pre-programmed by you and can be sent without the need of a smartphone. This is especially useful if your phone dies and you are in an emergency situation~~.
+- OLED display ~~and rotary encoder with "Canned messages", these are messages pre-programmed by you and can be sent without the need of a smartphone. This is especially useful if your phone dies and you are in an emergency situation~~.
 - Optional Temp/Hum/Pressure sensor can send potentially useful data to the rest of your group.
 - On-board GPS will keep sending your position even after your phone is disconnected.
-- ~~A buzzer to notify you when messages are recieved.~~ 
+- ~~A buzzer to notify you when messages are received.~~ 
 - Compatible with official Meshtastic Hydra firmware variant so you can stay up to date when new versions are released. No custom firmware needed!
 ### Added by me:
 - All SMD components are no smaller than 1206 for easy hand-soldering.
@@ -26,3 +26,5 @@
 - 1206 SMD resistors: 1k x1, 10k x1 and 100k x2 (these form a voltage divider to sense battery voltage; other reasonably high values can be used as long as the voltage applied to ESP's pin is no higher than 3.3 V when battery is full and the ratio is set correctly in firmware).
 - 1206 SMD capacitors: 100nF x4.
 - 100uF tantalum capacitors, size B, voltage at least 6,3V, x2.
+## Notes:
+EasyEDA project is provided in Project folder in addition to the Gerbers needed for manufacturing. Feel free to make your own modifications to the project and share them but keep in mind the original author's license which is also provided in this repository.
