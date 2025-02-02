@@ -1,5 +1,5 @@
 # MeshAdventurer Reborn
-## MeshAdventurer Reborn is my remix of Chris Myers' MeshAdventurer project.
+## MeshAdventurer Reborn is my remix of Chris Myers' MeshAdventurer project. The enclosure is available on [Printables](https://www.printables.com/model/1171527-meshadventurer-reborn-enclosure-for-meshtastic)
 ![Original Author's repository](https://github.com/chrismyers2000/MeshAdventurer)
 ## Features:
 ### From original project (I removed some things because I didn't need them):
